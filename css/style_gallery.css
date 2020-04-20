@@ -1,0 +1,28 @@
+body{
+    margin:0;
+    padding:0;
+}
+#randomGallery{
+    height: 73vh;
+    width: 100%;
+    display:flex; 
+}
+
+form{
+    height:47vh;
+    width: 20%;
+    margin: 85px 20px; 
+}
+
+#rand{
+    margin: 10px 70px;
+}
+
+#myimg{
+    width: 700px;
+    height: 450px;
+}
+
+
+   
+

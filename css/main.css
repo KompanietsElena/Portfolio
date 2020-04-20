@@ -1,0 +1,101 @@
+header{
+    height:20vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:50% 50%;
+    opacity: 80%;
+}
+
+#forma{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    text-align: left;
+    top: 2%;
+    color: black;
+}
+
+#navigation{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    text-align: center;
+    top: 7%;
+    left: 5%;
+    transform: translate(-50% -50%);
+    color: black;
+}
+
+#logo{
+    font-size:40px;
+    font-family: Arial, Candara, sans-serif;
+    color: ForestGreen;
+    position: relative;
+    left:5%;
+}
+
+#container{
+    height: 73vh;
+    display:flex;  
+}
+
+#left{
+    height: 73vh;
+    width:50vh;
+}
+
+#center_block{
+    height: 73vh;
+    width: 110vh;
+    text-align: center;
+}
+
+#right{
+    height: 73vh;
+    width: 50vh;
+}
+
+#left2{
+    height:63vh;
+    width: 60%;
+    margin: 30px;
+}
+
+#right2{
+    height:47vh;
+    width: 40%;
+    margin: 85px 50px; 
+}
+
+#hobby, #resume{
+    height: 73vh;
+    display:flex;
+}
+
+#gallery{
+    height: 73vh;
+    display:flex;
+    margin: 0px 400px; 
+}
+
+#img2{
+    float:left;
+}
+
+#img{
+    margin: 50px 20px;
+}
+
+footer{
+    width:100%;
+    height: 7vh;
+    font-size: 20px;
+    text-align: center;
+    background: Gainsboro;
+    flex: 0 0 auto; 
+}
+

@@ -1,0 +1,158 @@
+#menu{
+    display:block;
+    color:black;
+}
+
+#nav > ul{
+    display: flex;
+}
+
+#nav{
+    display:flex;
+    list-style:none;
+    background:LightCyan;
+    color:black;   
+}
+
+#nav li a{
+    display:block;
+    color: black;
+    text-decoration: none;
+    padding 30px 30px 30px 40px;
+    margin: 0 30px 0 0;
+    font-size: 18px;
+    text-transform: uppercase;
+    float: none;
+    position: relative;
+    left:20%;
+    transition: all 0.3s ease;
+}
+
+#menu ul li{
+    padding:10px;
+}
+
+#menu ul > li:hover{
+    background-color: DarkSeaGreen;
+    color: #ffffff;
+    box-shadow: 1px 5px 10px -5px black;
+    transition: all 0.3s ease;
+}
+
+#menu ul ul > li:hover{
+    background-color: MediumAquamarine;
+}
+
+#menu ul li, #menu ul{
+    display: inline-block;
+}
+
+#menu ul{
+    position: relative;
+    margin:0;
+    padding:0;
+    background-color:AliceBlue;
+}
+
+#menu ul ul{
+    display: none;
+    position: absolute;
+    background-color: PaleGreen;
+    color: white;
+    margin-top:10px;
+    margin-left: -1px;
+}
+
+#menu ul a{
+    color:black;
+    text-decoration: none;
+}
+
+#menu li:hover ul{
+    display: block;
+}
+
+#menu li:hover li{
+    display: block;
+}
+
+
+#vhod ul li{
+    padding:10px;
+}
+
+#vhod ul > li:hover{
+    background-color: DarkSeaGreen;
+    color: #ffffff;
+    box-shadow: 1px 5px 10px -5px black;
+    transition: all 0.3s ease;
+}
+
+#vhod ul ul > li:hover{
+    background-color: MediumAquamarine;
+}
+
+#vhod ul li, #vhod ul{
+    display: inline-block;
+}
+
+#vhod ul{
+    position: relative;
+    margin:0;
+    padding:0;
+    background-color:AliceBlue;
+}
+
+#vhod ul ul{
+    display: none;
+    position: absolute;
+    background-color: PaleGreen;
+    color: white;
+    margin-top:10px;
+    margin-left: -1px;
+}
+
+#vhod ul a{
+    color:black;
+    text-decoration: none;
+}
+
+#vhod li:hover ul{
+    display: block;
+}
+
+#vhod li:hover li{
+    display: block;
+}
+
+
+
+#vhod{
+    display:block;
+    color:black;
+}
+
+#choice > ul{
+    display: flex;
+}
+
+#choice{
+    display:flex;
+    list-style:none;
+    background:LightCyan;
+    color:black;   
+}
+
+#choice li a{
+    display:block;
+    color: black;
+    text-decoration: none;
+    padding 30px 30px 30px 40px;
+    margin: 0 30px 0 0;
+    font-size: 18px;
+    text-transform: uppercase;
+    float: none;
+    position: relative;
+    left:20%;
+    transition: all 0.3s ease;
+}
